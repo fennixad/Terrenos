@@ -1,0 +1,98 @@
+{
+  "fileID": 11400000,
+  "guid": "f3b7ff9c65cf4e049b7c887a07e0f873",
+  "MonoImporter": {
+    "serializedVersion": 2,
+    "externalObjects": {},
+    "userData": "",
+    "assetBundleName": "",
+    "assetBundleVariant": ""
+  },
+  "ShaderGraphImporter": {
+    "serializedVersion": 1,
+    "version": "2023.2.0",
+    "serializedGraph": {
+      "m_SerializedNodes": [
+        {
+          "m_Guid": "a1",
+          "m_Name": "Object Position",
+          "m_Type": "UnityEditor.ShaderGraph.PositionNode",
+          "m_InstanceID": 1,
+          "m_Space": 1
+        },
+        {
+          "m_Guid": "a2",
+          "m_Name": "Length",
+          "m_Type": "UnityEditor.ShaderGraph.LengthNode",
+          "m_InstanceID": 2
+        },
+        {
+          "m_Guid": "a3",
+          "m_Name": "Radius",
+          "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
+          "m_InstanceID": 3,
+          "m_ExposedName": "Radius",
+          "m_PropertyType": "Float",
+          "m_DefaultFloat": 1.0
+        },
+        {
+          "m_Guid": "a4",
+          "m_Name": "Divide",
+          "m_Type": "UnityEditor.ShaderGraph.DivideNode",
+          "m_InstanceID": 4
+        },
+        {
+          "m_Guid": "a5",
+          "m_Name": "One Minus",
+          "m_Type": "UnityEditor.ShaderGraph.OneMinusNode",
+          "m_InstanceID": 5
+        },
+        {
+          "m_Guid": "a6",
+          "m_Name": "Power",
+          "m_Type": "UnityEditor.ShaderGraph.PowerNode",
+          "m_InstanceID": 6
+        },
+        {
+          "m_Guid": "a7",
+          "m_Name": "Color",
+          "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
+          "m_InstanceID": 7,
+          "m_ExposedName": "Color",
+          "m_PropertyType": "Color",
+          "m_DefaultColor": [1, 1, 1, 1]
+        },
+        {
+          "m_Guid": "a8",
+          "m_Name": "Multiply",
+          "m_Type": "UnityEditor.ShaderGraph.MultiplyNode",
+          "m_InstanceID": 8
+        },
+        {
+          "m_Guid": "a9",
+          "m_Name": "Master",
+          "m_Type": "UnityEditor.ShaderGraph.UnlitMasterNode",
+          "m_InstanceID": 9,
+          "m_SlotColor": "a8",
+          "m_SlotAlpha": "a6"
+        }
+      ],
+      "m_Properties": [
+        {
+          "m_Name": "Radius",
+          "m_ReferenceName": "Radius",
+          "m_Type": "Float",
+          "m_DefaultValue": 1.0,
+          "m_Attributes": []
+        },
+        {
+          "m_Name": "Color",
+          "m_ReferenceName": "Color",
+          "m_Type": "Color",
+          "m_DefaultValue": [1, 1, 1, 1],
+          "m_Attributes": []
+        }
+      ]
+    }
+  }
+}
